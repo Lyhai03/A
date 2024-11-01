@@ -1,0 +1,74 @@
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        * {
+    box-sizing: border-box;
+}
+.footer {
+            background-color: #0a2a4a;
+            color: #ffffff;
+            padding:0 0;
+        }
+        .footer .container {
+            display: flex;
+            justify-content: auto;
+            max-width: 100%;
+            margin: 0 0;
+           
+        }
+        .footer .column {
+            flex: 1;
+            margin: 0 10px;
+			justify-content:justify;
+        }
+		 .footer .column1 {
+            flex: 1;
+            margin-right: 0px;
+			justify-content:justify;
+			
+        }
+		
+        .footer .social-icons {
+            display: flex;
+            margin-top: 15px;
+			
+        }
+        .footer .social-icons a {
+            
+            font-size: 30px;
+			text-align: center;
+            text-decoration: none;
+			width: 50px;
+			height: 50px;
+			color: blue;
+			
+        }
+        .footer .newsletter input[type="text"] {
+            padding: 10px;
+            border: none;
+            width: 70%;
+            margin-right: 10px;
+        }
+        .footer .newsletter button {
+            padding: 10px;
+            background-color: #ffcc00;
+            border: none;
+            cursor: pointer;
+        }
+        .footer .flickr-photos img {
+            width: 30%;
+            margin: 1%;
+        }
+        .footer .bottom-bar {
+            background-color: #071d36;
+            text-align: center;
+            padding: 10px 10px;
+            font-size: 14px;
+			bottom:0px;
+        }
+        .footer .bottom-bar img {
+            margin-left: 10px;
+        }
+        

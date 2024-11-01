@@ -1,0 +1,66 @@
+  /* Style for the header */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+			height: 100px;
+        }
+
+        .header .left-nav, .header .right-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .header .left-nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0px 70px;
+        }
+		.header .right-nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0px 50px;
+        }
+        .header .left-nav a:hover, .header .right-nav a:hover {
+            color: #666;
+			border-bottom: 5px solid black;
+        }
+
+        .header .logo {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bold;
+
+			justify-content:center;
+			
+        }
+		.header .logo h1  {
+			font-size: 2em;
+			border-bottom: 2px solid black;
+			
+			
+		}
+		.header .logo p  {
+			font-size: 0.5em;
+			margin: 0px 0px;
+			
+			
+		}
+
+        /* Space for the content so it's not hidden under the header */
+        .content {
+            padding-top: 100px; /* Adjust based on header height */
+        }
